@@ -1,0 +1,37 @@
+.box .p1{
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+
+}
+.box .p2{
+    background-color:chocolate;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+
+}
+.box .p3{
+    background-color: rgb(127, 255, 155);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+
+}
+.box .p4{
+    background-color: rgb(255, 127, 191);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+
+}
+@media screen and (min-width:600px) and (max-width:900px){
+    .box .box1{display: flex;
+    background-color: blueviolet;}
+}
+@media screen and (orientation:portrait){
+    .box{
+        display: flex;
+    }
+}

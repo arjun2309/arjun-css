@@ -1,0 +1,41 @@
+.login{
+    border: 2px black solid;
+    height: 180px;
+    width:200px;
+    margin: auto;
+    margin-top: 7%;
+    padding:30px 29px 20px 20px;
+    border-radius: 20px;    
+    background-color:cadetblue;
+    background-image: url(./images/360_F_252124067_aCtp9ZD934RboKmjJzkXiwYDL7XkNjpn.jpg);
+    color:darkkhaki;
+    text-align: center;
+    text-shadow: 2px 2px black;
+
+}
+.login1{
+    width: 200px;
+    border-radius: 7px;
+}
+
+.login2{
+    width: 210px;   
+    height: 25px;
+    color: white;
+    background-color: red;
+    background-image: linear-gradient(rgb(214, 84, 84), rgb(84, 132, 187));
+    border-radius: 50px;
+}
+body{
+    background-image: url(./images/360_F_292203735_CSsyqyS6A4Z9Czd4Msf7qZEhoxjpzZl1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.img1{
+    margin-left: 36%;
+    width: 400px;
+    margin-top: 2%;
+    height: 100px;
+    
+}

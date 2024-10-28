@@ -1,0 +1,29 @@
+.outerbox{
+    background-color:grey;
+    height: 500px;
+    display:flex;
+    flex-wrap: wrap;
+
+    flex-direction: row;
+    justify-content:space-around;
+   border-collapse: collapse;
+    align-items:center;
+}
+.box1{
+    width:120px;
+    height:120px;
+    background-color: gold;
+    border: 2px solid white;
+    align-self: flex-start;
+   
+    
+}
+.box3{
+    width:120px;
+    height:120px;
+    background-color: gold;
+    border: 2px solid white;
+    align-self: flex-end;
+   
+    
+}

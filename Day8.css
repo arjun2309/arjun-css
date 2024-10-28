@@ -1,0 +1,103 @@
+.outerbox{
+ 
+    flex-wrap: wrap;
+height: 800px;
+width: 800px;
+border: 2px solid black;
+background-color :white;
+
+    /* flex-direction: row; */
+
+ 
+   
+     /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* padding :100px; */
+}
+.one{
+    display: flex;
+    width: 800px;
+
+}
+.two{
+    display: flex;
+    width: 800px;
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-left: 100px;
+   
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-left: 100px;
+    
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-left: 100px;
+}
+.box4{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-left: 100px;
+}
+.box5{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    /* margin-left: 100px; */
+}
+.box6{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-left: 100px;
+}
+.box7{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-left: 100px;
+}
+.box8{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin-left: 100px;
+}
+    /* .box2{
+        width:120px;
+        height:120px;
+        background-color:black;
+        /* flex-grow:1; */
+        /* border: 2px solid white;
+       
+        
+    }
+    
+    .box1{
+        width:120px;
+        height:120px;
+        background-color: black;
+        border: 2px solid white;
+        align-self: flex-start;
+       
+        
+    }
+    .box3{
+        width:120px;
+        height:120px;
+        background-color: black;
+        border: 2px solid white;
+        align-self: flex-start;
+       
+        
+    } */ 

@@ -1,0 +1,33 @@
+.clas{
+    border:aqua 14px solid;
+    /* margin-left: 42%;
+    margin-right: 42%; */
+    margin-top: 100px;
+    background-image: url(./images/Screenshot\ 2024-06-08\ 204331.png);
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    width: 250px;
+    margin: auto;
+    background-clip: content-box;
+    font-weight: bold;
+     color:black;
+    
+}
+.bu{
+    margin-left: 100px;
+    background-color:aqua; 
+}
+.tr{
+    opacity: 0.6;
+    
+}
+.box{
+   
+    margin: auto;
+    margin-top: 5%;
+    height: 200px;
+    width: 200px;
+   
+  background-clip:initial;
+}

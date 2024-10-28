@@ -1,0 +1,31 @@
+.main{
+    background-color: black;
+    color: white;
+ height: 7vh;
+ /* display: inline; */
+ /* display: inline-block; */
+ 
+
+}
+.logo{
+    padding-top: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+*{
+    /* background-color: aqua; */
+    margin: 0%;
+    padding: 0%;
+}
+.box2{
+    float: right;
+    /* display: inline-block; */
+    padding-top: 10px;
+}
+.box{
+margin-left: 20px;
+text-decoration: none;
+color: white;
+margin-right: 10px;
+
+}

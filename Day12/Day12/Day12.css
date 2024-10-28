@@ -1,0 +1,57 @@
+body{
+    background-color: skyblue;
+    overflow: hidden;
+    
+}
+
+
+.truck {
+    position: absolute;
+   top:400px;
+ /* bottom : -150px; */
+    animation-name: truck-animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes truck-animation {
+    /* from {transform: translateX(-300px);}
+    to {transform: translateX(1600px);} */
+    from {left: -300px;}
+    to {left: 100%;}
+}
+
+
+.cloud {
+    position: absolute;
+    top:30px;
+    right: 10px;
+    animation: smallcloud-animation 50s linear 1s infinite;
+    opacity: 0.7;
+    z-index: 1;
+}
+
+.sun {
+    background-color: yellow;
+    width: 100px;
+    left: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+}
+
+.large-cloud {
+    position: absolute;
+    top:200px;
+    right: 10px;
+    width: 400px;
+    animation: smallcloud-animation 30s linear 1s infinite;
+    z-index: -1;
+}
+
+@keyframes smallcloud-animation {
+    from {right: -200px;}
+    to {right: 100%;}
+}

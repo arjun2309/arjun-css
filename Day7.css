@@ -1,0 +1,23 @@
+.box{
+    display: flex;
+    flex-direction: row;
+}
+.one{
+    width: 500px;
+   background-color: blue;
+   order: 2;
+   flex :3;
+
+}
+.two{
+    width: 500px;
+    order: 3;
+    background-color: bisque;
+    flex:2
+}
+.three{
+    width: 500px;
+  
+    background-color: cadetblue;
+    flex: 3;
+}

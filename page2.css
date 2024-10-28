@@ -1,0 +1,32 @@
+body{
+    background-image: url(./images/360_F_292203735_CSsyqyS6A4Z9Czd4Msf7qZEhoxjpzZl1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navigation{
+    
+    /* flex-direction: row; */
+    
+    /* width: %; */
+}
+.box{
+    
+    border: 2px rgb(250, 247, 247) solid;
+    background-color: black;
+    display: flex;
+    height: 50px;
+    width: 400px;
+  
+    /* border-radius: 20px; */
+ 
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+     padding:20px;
+     font-size: larger;
+}
+a:hover{
+    background-color: aqua;
+}

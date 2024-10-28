@@ -1,0 +1,40 @@
+
+.outerbox{
+    background-color: bisque;
+    display:grid;
+   
+    grid-template-columns: repeat(2,1fr) ;
+  }
+
+.box{
+    background-color:brown;
+    display:grid;
+
+    text-align: center;
+    align-items: center;
+ 
+    font-size: 3rem;
+    border: 2px solid black;
+   
+
+}
+.box1{
+ 
+  grid-column-start: span 5;
+  /* height: 100px; */
+}
+.box2{
+    grid-column-start: span 1;
+    height: 400px;
+}
+.box3{
+    grid-column-start: span 1;
+    height: 400px;
+}
+.box4{
+    grid-column-start: span 3;
+    height: 400px;
+}
+.box5{
+    grid-column-start: span 5;
+}

@@ -1,0 +1,28 @@
+.box1{
+    width: 300px;
+    margin: 80px auto;
+    background-color: aqua;
+    /* perspective should be given in parent class for 3d visual*/
+    perspective: 1200px;
+}
+.box
+{
+    height: 100px;
+    width:300px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    /* transform: scaleX(1.5);
+    transform: scaleY(1.5); */
+    /* transform: scale(1.5,1.5); */
+    /* transform: skewX(40deg);
+    transform: skewY(40deg); */
+    /* transform: skew(40deg) translateX(200px); */
+    /* /* transform: translateX(200px); */
+    /* transform: translateX(200px); */
+    font-size: 4rem;
+    justify-content:centre; 
+    /* transform: rotateY(50deg); */
+transform:translateZ(300px) ;
+
+}

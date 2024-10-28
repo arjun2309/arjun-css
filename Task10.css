@@ -1,0 +1,75 @@
+html{
+    background-image: url(./images/Screenshot\ 2024-06-30\ 185142.png);
+    
+    background-repeat: no-repeat;
+   background-size: cover;
+  overflow: hidden;
+   
+}
+
+.small{
+    height: 110px;
+    width: 200px;
+    position: absolute;
+    top:30px;
+    right: 10px;
+    animation: cloud 20s linear infinite;
+    
+}
+
+.big{
+   
+    position: absolute;
+    top:80px;
+    right: 10px;
+    height: 200px;
+    width: 500px;
+    animation: cloud 30s linear infinite;
+    z-index: -1;
+
+   
+}
+@keyframes cloud{
+    from{right: -200px;}
+    to{right: 100%;}
+}
+.car{
+    position: absolute;
+    top: 350px;
+    left:0px;
+    height: 350px;
+animation-name: car;
+animation-duration: 5s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+
+@keyframes car{
+    from{left: -200px;}
+    to{left: 100%;}
+}
+.flight{
+    position: absolute;
+    height: 100px;
+    animation: flight 7s linear infinite;
+    z-index: -1;
+    left: -500px;
+}
+ @keyframes flight{
+    /* from{left: -200px;}
+    to{left: 100%;} */
+
+    50%{
+        left:   5px;
+        top: 200px;
+    }
+    75%{
+        left: 500px;
+        top:150px;
+    }
+    100%{
+        top: 100px;
+        left: 1500px;
+    }
+}
+ 

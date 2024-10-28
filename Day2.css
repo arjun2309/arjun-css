@@ -1,0 +1,53 @@
+/* p{
+    margin-left: 50px;
+    margin-top: 30px;
+    padding-left: 30px;
+    color: orange;
+    font-size: 20px;
+
+} */
+.box{
+padding-left: 10px;
+border: 2px solid black;
+}
+h1{
+    color: slateblue;
+}
+.par{
+    color: red;
+
+}
+#para{
+    color: darkkhaki;
+}
+/* group selector -  */
+.g1,.g2,.g3{
+    border: 3px solid pink;
+}
+/* universal selector */
+/* *{
+    color: blue;
+} */
+/* pseudo class selector */
+h2:hover{
+    color: coral;
+    cursor: pointer;
+}
+[href]{
+    text-decoration: none;
+}
+.dotted{
+    border: dotted burlywood ;
+}
+.dashed{
+    border: dashed 10px;
+}
+.double{
+    border: double 10px;
+}
+.groove{
+    border: groove 10px;
+}
+.ridge{
+    border: ridge 10px;
+}

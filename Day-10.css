@@ -1,0 +1,55 @@
+.box{
+    background-color: aquamarine;
+    width: 150px;
+    height: 100px;
+}
+.box:hover{
+    background-color: chocolate;
+    width: 1000px;
+    /* transition-property: width,background-color; */
+   
+    transform: rotate(180000deg);
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    /* transition-delay:2s ; */
+    /* transition: ; */
+   
+}
+.cir{
+    width: 100px;
+    height:100px;
+    background-color: chartreuse;
+    border-radius: 50%;
+    animation-name: circle;
+    animation-duration: 3s;
+    /* animation-iteration-count: infinite; */
+   /* animation-fill-mode: forwards; */
+   position: relative;
+} 
+@keyframes circle {
+    50%{
+        width: 50px;
+        height: 50px;
+        left: 0px;
+        top: 0px;
+        background-color: crimson;
+    }
+    
+    75%{
+        
+        width: 300px;
+        height: 300px;
+        left: 500px;
+        bottom: 500px;
+         background-color: coral;
+ 
+    }
+    100%{
+        width: 50px;
+        height: 50px;
+        left: 0px;
+        top: 0px;
+        background-color: crimson;
+    
+    }
+}

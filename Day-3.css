@@ -1,0 +1,66 @@
+/* body{
+    background-color: aqua;
+}
+
+*{
+    background-color: brown;
+    margin:0;
+}
+
+html{
+    background-color: blueviolet;
+} */
+
+/* float */
+/* .col p{
+    width:32%;
+    float:left;
+    text-align: justify;
+    margin-left:10px
+} */
+
+
+
+/* backgrounds */
+/* background-attachment */
+/* body{
+    
+    background-image: url('/images/beach.jpg');
+  
+    background-repeat: no-repeat;
+      background-attachment: fixed;
+     background-size: cover;
+   
+   
+} */
+
+ /* background-origin  */
+ div{ 
+    background-color: purple;
+    color:white;
+    background-image: url('/images/beach.jpg');
+    background-repeat: no-repeat;
+    border: 20px dashed black; 
+    background-size: 100px 100px;
+    background-position: bottom center;
+     background-origin: padding-box;
+
+     /* background-origin: content-box;  */
+     /* background-origin: border-box;  */
+    padding: 20px; 
+    }
+
+/*  Image inside the text */
+.lorem{
+    font-size: 72px; /* Set the font size */
+  font-weight: bold; 
+  color: transparent; 
+  background-image: url('/images/4.jpg'); /* Set the image as background */
+  background-size: cover; /* Adjust the background size */
+
+   background-clip: text;
+   -webkit-background-clip: text;  
+}
+
+
+

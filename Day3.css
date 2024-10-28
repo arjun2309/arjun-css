@@ -1,0 +1,39 @@
+body{
+    /* background-color: aquamarine; */
+    background-image: url(./images/Everest.jpg);
+    /* no repeat doesnt repeat the background pic  while scrolling  */
+    background-repeat: no-repeat;
+    /* background attachment fixed only text moves  image doesnt while scrolling  */
+    background-attachment: fixed;
+    /* cover covers the whole page  can also change the size background-size:100px 100px */
+    background-size: 100px 100px;
+    /* padding: 10px; */
+    border: 10px solid black;
+    background-origin:border-box;
+    /* position of the background image  */
+    background-position: top center ;
+
+}
+/* html{
+    background-color: darkred;
+
+} */
+/* *{
+    background-color: blueviolet;
+    /* margin: 0%;
+    padding: 0%; */
+
+/* float */
+.col p{
+    width: 32%;
+    float: left;
+    text-align: justify;
+    margin: 10px;
+    font-weight: bold;
+    /* the text becomes transparent and shows the background image  */
+    background-image: url(./images/christ.jpg);
+    background-size: cover;
+    color: transparent;
+    background-clip: text;
+
+}
